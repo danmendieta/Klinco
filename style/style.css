@@ -1,7 +1,15 @@
 body{
-	background-color: #eeaa11;
+	background-color:rgb(11, 136, 185);
 	font: 18px "Open Sans",Arial,sans-serif;
 }
-#header{}
-#main{}
-#footer{}
+#header{
+	padding-left: 30%;
+}
+#main{
+	padding-left: 30%;
+	
+}
+#footer{
+	padding-left: 10%;
+	padding-top: 100%;
+}
