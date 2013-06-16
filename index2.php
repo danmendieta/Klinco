@@ -135,6 +135,11 @@
 			</div><!-- /wrapper -->
 			</td>
 			<td>
+			
+			<div id="header">
+				<img id="img_logo" src="img/logo_full.png">
+			</div>
+			
 			<div id="suscribe">
 					<div id="cont">
 						<p>Ingresa tu email para notificarte noticias de Klinco</p>

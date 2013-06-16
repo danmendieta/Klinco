@@ -25,14 +25,14 @@ $mail->WordWrap = 50;
 
 $mail->IsHTML(true);
 
-$mail->Subject = "Klincofriend!";
+$mail->Subject = "Sugerencia Klinco!";
 
 
-$message = "HOLA!!, Estoy interesado en Klinco ";
-$message .= "mi correo electrónico es: ";
-//$message.= $_REQUEST['message'] ;
+$message = "HOLA!!, mis sugerencias son: ";
+$message.= $_REQUEST['message'] ;
+$message .= " mi correo electrónico es: ";
 $message .= $_REQUEST['email'] ;
-$message .= " espero tu contacto."; 
+$message .= " Saludos!."; 
 $mail->Body    = $message;
 $mail->AltBody = $message;
 

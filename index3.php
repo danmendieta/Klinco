@@ -86,10 +86,20 @@
 	
 	
 	
-		<div id="container" align="center">
+		<div id="container">
+			<div id="header">
+				<img id="img_logo" src="img/logo_full.png">
+			</div>
+			<div id="main">
+				<div id="descripcion">
+					 <h1>Brinda educación y manejo de finanzas personales, para acceder al crédito ideal</h1>
+				</div>
+				<div class="container">
+
+			
+			
 		
-		
-			<table>
+		<table>
 		<tr>
 			<td>
 				<div class="wrapper">
@@ -126,24 +136,15 @@
 						</div> -->
 					</li>
 					
-					<li>
-						<a href="#" target="_blank"><img src="images/6.png" alt="image1" width="450px" height="550px"/></a>
-						<!-- <div class="sb-description">
-							<h3>Faithful Investor</h3>
-						</div> -->
-					</li>
-					
 				</ul>
 
 			
+
+				
+
 			</div><!-- /wrapper -->
 			</td>
 			<td>
-			
-			<div id="logo">
-				<img id="img_logo" src="img/logo_full.png" width="300px">
-			</div>
-			
 			<div id="suscribe">
 					<div id="cont">
 						<p>Ingresa tu email para notificarte noticias de Klinco</p>
@@ -157,39 +158,6 @@
 			</td>
 		
 		</tr>
-		
-</table>
-
-<div id="descripcion">
-					 <h1>Brinda educación y manejo de finanzas personales, para acceder al crédito ideal</h1>
-				</div>
-				
-				
-				
-				<div id="info">
-					<div id="seccion-uno" class="mpo">
-						<img src="">
-						<h3 class="info-tit">Crédito</h3>
-						<p>Entenderas los conceptos que involucran esta herramienta financiera y la mejor manera de obtenerlo con nosotros. Durante esta experiencia seguro obtendras el mejor crédito a tu medida</p>
-					</div>
-					<div id="seccion-dos" class="mpo">
-						<img src="">
-						<h3 class="info-tit">Educación</h3>
-						<p>La mejor experiencia para entender las practicas mas eficientes en el uso del dinero, un entrenamiento para mejorar tu relación con el dinero y el crédito</p>
-					</div>
-					<div id="seccion-tres" class="mpo">
-						<img src="">
-						<h3 class="info-tit">Libertad</h3>
-						<p>Imaginate dominar tu economía con inteligencia financiera que te permita respirar tranquilidad y cumplir tus objetivos</p>
-					</div>
-				</div>
-				
-				
-				
-				
-		
-		
-			
 		
 </table>
 			
@@ -211,8 +179,24 @@
 </form> -->
 				
 				
-				
-			
+				<div id="info">
+					<div id="seccion-uno" class="mpo">
+						<img src="">
+						<h3 class="info-tit">Crédito</h3>
+						<p>Entenderas los conceptos que involucran esta herramienta financiera y la mejor manera de obtenerlo con nosotros. Durante esta experiencia seguro obtendras el mejor crédito a tu medida</p>
+					</div>
+					<div id="seccion-dos" class="mpo">
+						<img src="">
+						<h3 class="info-tit">Educación</h3>
+						<p>La mejor experiencia para entender las practicas mas eficientes en el uso del dinero, un entrenamiento para mejorar tu relación con el dinero y el crédito</p>
+					</div>
+					<div id="seccion-tres" class="mpo">
+						<img src="">
+						<h3 class="info-tit">Libertad</h3>
+						<p>Imaginate dominar tu economía con inteligencia financiera que te permita respirar tranquilidad y cumplir tus objetivos</p>
+					</div>
+				</div>
+			</div>
 			<div id="footer">
 				<p>
 					Tienes preguntas o comentarios?<a href="feedback.html"> Haznoslo saber!</a>
@@ -222,6 +206,6 @@
 				</p>
 				</div>		
 			</div> 
-		
+		</div> 
 	</body>
 </html>
