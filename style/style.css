@@ -1,15 +1,39 @@
 body{
-	background-color:rgb(11, 136, 185);
-	font: 18px "Open Sans",Arial,sans-serif;
+	background-color:#fff;
+	color: #000;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	
 }
+#container{
+	color: rgb(111, 110, 110);
+	padding-left: 10%;
+}
+
 #header{
 	padding-left: 30%;
 }
 #main{
-	padding-left: 30%;
+
 	
+	font-weight: 300;
 }
+#descripcion{
+	text-align: center;
+	
+	padding-top: 10%;
+
+}
+#suscribe p{
+	font-size: 15px;
+}
+
+
+
 #footer{
-	padding-left: 10%;
-	padding-top: 100%;
+	
+	padding-top: 30%;
+}
+#footer p{
+	text-align: center;
 }
