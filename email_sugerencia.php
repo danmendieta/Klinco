@@ -38,12 +38,11 @@ $mail->AltBody = $message;
 
 if(!$mail->Send())
 {
-   echo "Message could not be sent. <p>";
-   echo "Mailer Error: " . $mail->ErrorInfo;
-   exit;
+	$response = "0";
+  
+}else{
+	$response = "1";
 }
-header("Location: index.php");
 
-exit;
-echo "Message has been sent";
+echo $response;
 ?>
