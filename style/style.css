@@ -11,25 +11,38 @@ body{
 }
 
 #header{
-	padding-left: 30%;
+	
 }
 #main{
-
-	
 	font-weight: 300;
 }
-#descripcion{
-	text-align: center;
-	
+#descripcion{	
+	text-align: center;	
 	padding-top: 10%;
-
+	padding-right: 40%;
 }
 #suscribe p{
 	font-size: 15px;
 }
-
-
-
+#info{
+	position: relative;
+}
+.info-tit{
+	color: rgb(255, 114, 103);
+	text-align: center;
+}
+.mpo{
+	width: 322.6px;
+	float: left;
+	float: left;
+}
+.mpo p{
+	width: 292.6px;
+	font-size: 12px;
+	color: #625e58;
+	text-align: justify;
+	padding: 15px 15px 15px;
+}
 #footer{
 	
 	padding-top: 30%;
