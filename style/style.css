@@ -11,21 +11,27 @@ body{
 }
 
 #header{
-	padding-left: 30%;	
+	padding-left: 28%;	
 }
+#img_logo{
+	width: 500px;
+}
+
 #main{
 	font-weight: 300;
 }
 #descripcion{	
 	text-align: center;	
-	
-	padding-right: 40%;
+	font-size: 20px;
+	padding-right: 20%;
+	padding-bottom: 20px;
 }
 #suscribe{
-
+	float: inherit;
 	width: 500px;
 	background-color:  rgb(23,58,69);
 	color: #fff;
+
 	padding: 15px 15px 15px 15px;
 }
 #suscribe p{
@@ -33,6 +39,7 @@ body{
 	font-size: 15px;
 }
 #info{
+	padding-top: 7%;
 	padding-left: 5%;
 	position: absolute;
 }
