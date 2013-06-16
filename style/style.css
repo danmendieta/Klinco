@@ -26,6 +26,7 @@ body{
 	padding-right: 20%;
 	padding-bottom: 20px;
 }
+
 #suscribe{
 	float: inherit;
 	width: 500px;
@@ -33,16 +34,15 @@ body{
 	color: #fff;
 
 	padding: 25px 15px 25px 15px;
-
-
-	position:absolute;
-     left:50%;
-     margin:0 0 0 -230px;
-     
+	
+     	left:50%;
+     	margin:0 0 0 20%;
 }
+
 #suscribe p{
 	font-size: 15px;
 }
+
 #info{
 	padding-top: 15%;
 	padding-left: 5%;
@@ -92,10 +92,19 @@ input[type="email"]{
 	max-width:100%;
 	margin-bottom:20px;
 	background:#fff;
+	position: static;
+
 }
 
 
 
-.btn.submit,.button.submit,button.submit,input[type="submit"]{background:#42BA5D;border-left:none !important;color:white;font-size:16px;font-style:"normal";text-transform:uppercase;appearance:none;-moz-appearance:none;-webkit-appearance:none;}
-.btn.simple,.button.simple,button.simple{border:none;padding:15px 20px;color:white;font-size:14px;text-transform:uppercase;appearance:none;-moz-appearance:none;-webkit-appearance:none;}
-.btn.medium,.button.medium,button.medium{border:none;padding:20px 32px;color:white;font-size:15px;text-transform:uppercase;appearance:none;-moz-appearance:none;-webkit-appearance:none;}
+input[type="submit"]{
+	background:#42BA5D;
+	border-left:none !important;
+	color:white;font-size:16px;
+	font-style:"normal";
+	text-transform:uppercase;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
