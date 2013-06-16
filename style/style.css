@@ -29,19 +29,29 @@ body{
 #suscribe{
 	float: inherit;
 	width: 500px;
-	background-color:  rgb(23,58,69);
+	background-color:  rgb(184, 5, 69);
 	color: #fff;
 
-	padding: 15px 15px 15px 15px;
+	padding: 25px 15px 25px 15px;
+
+
+	position:absolute;
+     left:50%;
+     margin:0 0 0 -230px;
+     
 }
 #suscribe p{
-
 	font-size: 15px;
 }
 #info{
-	padding-top: 7%;
+	padding-top: 15%;
 	padding-left: 5%;
+	
 	position: absolute;
+}
+#cont{
+	padding-left: 10%;
+
 }
 .info-tit{
 	color: rgb(255, 114, 103);
@@ -66,3 +76,26 @@ body{
 #footer p{
 	text-align: center;
 }
+
+
+
+input[type="email"]{
+	border:1px solid #ccc;
+	padding:6px 4px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	font:13px "Open Sans",Arial,sans-serif;
+	color:#777;
+	margin:0;
+	width:210px;
+	max-width:100%;
+	margin-bottom:20px;
+	background:#fff;
+}
+
+
+
+.btn.submit,.button.submit,button.submit,input[type="submit"]{background:#42BA5D;border-left:none !important;color:white;font-size:16px;font-style:"normal";text-transform:uppercase;appearance:none;-moz-appearance:none;-webkit-appearance:none;}
+.btn.simple,.button.simple,button.simple{border:none;padding:15px 20px;color:white;font-size:14px;text-transform:uppercase;appearance:none;-moz-appearance:none;-webkit-appearance:none;}
+.btn.medium,.button.medium,button.medium{border:none;padding:20px 32px;color:white;font-size:15px;text-transform:uppercase;appearance:none;-moz-appearance:none;-webkit-appearance:none;}
