@@ -3,6 +3,9 @@
 include("class.phpmailer.php");
 include("class.smtp.php");
 
+//get the q parameter from URL
+$msj=$_GET["msj"];
+
 $mail = new PHPMailer();
 
 //$mail->IsSMTP();                                      // configura SMTP
@@ -11,15 +14,15 @@ $mail = new PHPMailer();
 //$mail->Port = 465;
 //$mail->SMTPAuth = true;     // cambia autenticacion
 //$mail->Username = "xxx@gmail.com";  // SMTP nombre usuario
-//$mail->Password = "xxx"; // SMTP contraseña
+//$mail->Password = "xxx%"; // SMTP contraseña
 
 
 $email = $_REQUEST['email'] ;
 $mail->From = $email;
 
 
-//$mail->AddAddress("hello@klinco.co", "Klinco");
-$mail->AddAddress("pretxel100@hotmail.com", "Klinco");
+$mail->AddAddress("hello@klinco.co", "Klinco");
+7/$mail->AddAddress("pretxel100@hotmail.com", "Klinco");
 
 $mail->WordWrap = 50;
 
@@ -31,19 +34,20 @@ $mail->Subject = "Klincofriend!";
 $message = "HOLA!!, Estoy interesado en Klinco ";
 $message .= "mi correo electrónico es: ";
 //$message.= $_REQUEST['message'] ;
-$message .= $_REQUEST['email'] ;
+$message .= $msj ;
+//$message .= $_REQUEST['email'] ;
 $message .= " espero tu contacto."; 
 $mail->Body    = $message;
 $mail->AltBody = $message;
 
 if(!$mail->Send())
 {
-   echo "Message could not be sent. <p>";
-   echo "Mailer Error: " . $mail->ErrorInfo;
-   exit;
+	$response = "0";
+  
+}else{
+	$response = "1";
 }
-header("Location: index.php");
 
-exit;
-echo "Message has been sent";
+//output the response
+echo $response;
 ?>

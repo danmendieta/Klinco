@@ -11,6 +11,47 @@
 		
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 		<title>Klinco   Crédito - Educación Financiera - Libertad</title>
+		
+		<script>
+function showHint()
+{
+
+var msj = document.getElementById("email").value;
+
+if (msj.length==0)
+  { 
+  //document.getElementById("email").innerHTML="";
+  return;
+  }
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.status==200)
+    {
+    //document.getElementById("email").innerHTML=xmlhttp.responseText;
+	var respon = xmlhttp.responseText;
+	var ult = respon.charAt(str.length-1)
+	alert(respon.length);
+	if (ult == "1"){
+			alert("Correo Enviado");
+		}else{
+			alert("Upss, Hay problemas en servidor " + respon);
+		}
+		alert("Upss, Hay problemas en servidor " + respon);
+	}
+  }
+xmlhttp.open("GET","email.php?msj="+msj,false);
+xmlhttp.send();
+}
+</script>
+		
 	</head>
 	<body>
 	
@@ -141,15 +182,15 @@
 			<td>
 			
 			<div id="logo">
-				<img id="img_logo" src="img/logo_full.png" width="300px">
+				<img id="img_logo" src="img/klinco_logo oscuro-04.png" width="300px">
 			</div>
 			
 			<div id="suscribe">
 					<div id="cont">
 						<p>Ingresa tu email para notificarte noticias de Klinco</p>
-						<form id="suscripcion" action="email.php">
+						<form id="suscripcion" >
 							<input type="email" name="email" id="email" placeholder="Tu email aquí" required="required">
-							<input type="submit" value="Enviar">
+							<input type="submit" value="Enviar" onclick="showHint();">
 						</form>
 						<div id="respuesta"></div>
 					</div>
