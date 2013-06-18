@@ -22,7 +22,7 @@ $mail->From = $email;
 
 
 $mail->AddAddress("hello@klinco.co", "Klinco");
-7/$mail->AddAddress("pretxel100@hotmail.com", "Klinco");
+//$mail->AddAddress("pretxel100@hotmail.com", "Klinco");
 
 $mail->WordWrap = 50;
 
