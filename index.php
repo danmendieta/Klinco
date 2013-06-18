@@ -210,13 +210,13 @@ xmlhttp.send();
 				<div id="info">
 					<div id="seccion-uno" class="mpo">
 						<img src="">
-						<h3 class="info-tit">Crédito</h3>
-						<p>Entenderas los conceptos que involucran esta herramienta financiera y la mejor manera de obtenerlo con nosotros. Durante esta experiencia seguro obtendras el mejor crédito a tu medida</p>
+						<h3 class="info-tit">Educación</h3>
+						<p>La mejor experiencia para entender las practicas mas eficientes en el uso del dinero, un entrenamiento para mejorar tu relación con el dinero y el crédito</p>
 					</div>
 					<div id="seccion-dos" class="mpo">
 						<img src="">
-						<h3 class="info-tit">Educación</h3>
-						<p>La mejor experiencia para entender las practicas mas eficientes en el uso del dinero, un entrenamiento para mejorar tu relación con el dinero y el crédito</p>
+						<h3 class="info-tit">Crédito</h3>
+						<p>Entenderas los conceptos que involucran esta herramienta financiera y la mejor manera de obtenerlo con nosotros. Durante esta experiencia seguro obtendras el mejor crédito a tu medida</p>
 					</div>
 					<div id="seccion-tres" class="mpo">
 						<img src="">
