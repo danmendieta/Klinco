@@ -202,26 +202,26 @@ xmlhttp.send();
 </table>
 
 <div id="descripcion">
-					 <h1>Brinda educación y manejo de finanzas personales, para acceder al crédito ideal</h1>
+					 <h1>Brinda educación y manejo de finanzas personales, para acceder al crédito ideal.</h1>
 				</div>
 				
 				
 				
-				<div id="info">
+				<div id="info" align="left">
 					<div id="seccion-uno" class="mpo">
 						<img src="">
 						<h3 class="info-tit">Educación</h3>
-						<p>La mejor experiencia para entender las practicas mas eficientes en el uso del dinero, un entrenamiento para mejorar tu relación con el dinero y el crédito</p>
+						<p>La mejor experiencia para entender las prácticas más eficientes en el uso del dinero, un entrenamiento para mejorar tu relación con el dinero y el crédito.</p>
 					</div>
 					<div id="seccion-dos" class="mpo">
 						<img src="">
 						<h3 class="info-tit">Crédito</h3>
-						<p>Entenderas los conceptos que involucran esta herramienta financiera y la mejor manera de obtenerlo con nosotros. Durante esta experiencia seguro obtendras el mejor crédito a tu medida</p>
+						<p>Entenderás los conceptos que involucran esta herramienta financiera y la mejor manera de obtenerlo con nosotros. Durante esta experiencia seguro obtendrás el mejor crédito a tu medida.</p>
 					</div>
 					<div id="seccion-tres" class="mpo">
 						<img src="">
 						<h3 class="info-tit">Libertad</h3>
-						<p>Imaginate dominar tu economía con inteligencia financiera que te permita respirar tranquilidad y cumplir tus objetivos</p>
+						<p>Imagínate dominar tu economía con inteligencia financiera que te permita respirar tranquilidad y cumplir tus objetivos.</p>
 					</div>
 				</div>
 				
@@ -256,7 +256,7 @@ xmlhttp.send();
 			
 			<div id="footer">
 				<p>
-					Tienes preguntas o comentarios?<a href="feedback.html"> Haznoslo saber!</a>
+					¿Tienes preguntas o comentarios?<a href="feedback.html"> ¡Háznoslo saber!</a>
 				</p>
 				<p>
 					2013 - Klinco 
